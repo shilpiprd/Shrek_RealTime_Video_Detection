@@ -42,7 +42,6 @@
 ./data/customdata/train_images/img32.jpg
 ./data/customdata/train_images/img33.jpg
 ./data/customdata/train_images/img35.jpg
-./data/customdata/train_images/img36.jpeg
 ./data/customdata/train_images/img36.jpg
 ./data/customdata/train_images/img37.jpeg
 ./data/customdata/train_images/img38.jpeg
@@ -74,7 +73,6 @@
 ./data/customdata/train_images/img83.jpg
 ./data/customdata/train_images/img84.jpeg
 ./data/customdata/train_images/img85.jpeg
-./data/customdata/train_images/img86.jpeg
 ./data/customdata/train_images/img86.jpg
 ./data/customdata/train_images/img87.jpg
 ./data/customdata/train_images/img88.jpg
@@ -98,9 +96,9 @@
 ./data/customdata/train_images/sample1.jpg
 ./data/customdata/train_images/sample20.jpg
 ./data/customdata/train_images/sample21.jpg
-./data/customdata/train_images/sample22.jpeg
 ./data/customdata/train_images/sample22.jpg
 ./data/customdata/train_images/sample23.jpg
+./data/customdata/train_images/sample24.jpeg
 ./data/customdata/train_images/sample2.jpg
 ./data/customdata/train_images/sample3.jpg
 ./data/customdata/train_images/sample4.jpg
