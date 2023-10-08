@@ -475,9 +475,9 @@ def build_targets(p, targets, model):
             # reject anchors below iou_thres (OPTIONAL, increases P, lowers R)
             if reject:
                 j = iou.view(-1) > model.hyp['iou_t']  # iou threshold hyperparameter
-                print(t.device, a.device, 'mydevice') #adding ths l
-                a = a.to('cuda:0') #moving tensor a from cpu to gpu
-                print(t.device, a.device, 'mymodified')
+                # print(t.device, a.device, 'mydevice') #adding ths l
+                a = a.to('cuda:0') #moving tensor a from cpu to gpu, ESSENTIAL
+                # print(t.device, a.device, 'mymodified')
                 t, a = t[j], a[j]
 
         # Indices
