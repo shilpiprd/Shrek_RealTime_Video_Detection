@@ -475,6 +475,7 @@ def build_targets(p, targets, model):
             # reject anchors below iou_thres (OPTIONAL, increases P, lowers R)
             if reject:
                 j = iou.view(-1) > model.hyp['iou_t']  # iou threshold hyperparameter
+                print(t.device, a.device, 'mydevice') #adding ths l
                 t, a = t[j], a[j]
 
         # Indices
