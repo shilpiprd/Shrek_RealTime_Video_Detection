@@ -1,8 +1,18 @@
-# Task
-YoloV3 Simplified for training on Colab with custom dataset. 
-![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-590.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-789.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-890.png)
-![](![Alt Text](output_images/image-2039.png)) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-2140.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-2328.png)
+# Youtube Video
+[Link to Video](https://youtu.be/MNGXXRh8tpI)
 
+# Custom Detected Images
+
+=<p float="left">
+  <img src="output_images/image-590.png" width="400" />
+  <img src="output_images/image-789.png" width="400" />
+  <img src="output_images/image-890.png" width="400" />
+  <img src="output_images/image-2039.png" width="400" />
+  <img src="output_images/image-2140.png" width="400" />
+  <img src="output_images/image-2328.png" width="400" />
+  
+</p>
+YoloV3 Simplified for training on Colab with custom dataset.
 
 This project introduces a real-time object detection model specifically trained to recognize characters from the movie "Shrek." Utilizing advanced deep learning techniques, the model can accurately detect and draw bounding boxes around the identified characters in any given video frame. Along with visual identification, the model also quantifies its confidence level by indicating the probability of the detected object truly belonging to one of the trained classes.
 
