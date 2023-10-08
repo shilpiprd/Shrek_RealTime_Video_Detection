@@ -1,5 +1,9 @@
 # Task
 YoloV3 Simplified for training on Colab with custom dataset. 
+![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-590.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-789.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-890.png)
+![](![Alt Text](output_images/image-2039.png)) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-2140.png) ![](/home/shilpi_fire/Documents/Shrek_Yolo_Real_Time/output_images/image-2328.png)
+
+
 This project introduces a real-time object detection model specifically trained to recognize characters from the movie "Shrek." Utilizing advanced deep learning techniques, the model can accurately detect and draw bounding boxes around the identified characters in any given video frame. Along with visual identification, the model also quantifies its confidence level by indicating the probability of the detected object truly belonging to one of the trained classes.
 
 The primary objective of this project was to demonstrate the capability of training an object detection system on a custom dataset, thereby highlighting its versatility and adaptability to varied use-cases. In this case, the model was trained on four distinct classes, representing characters from the movie.
@@ -37,6 +41,7 @@ data
 
 ### Final Video Inferencing 
 - To get the final output, I intend to run the following command ``!python detect.py --source /content/drive/MyDrive/Shrek_YOLOv3/frames_source --output out_out --conf-thres 0.1 ``
+- To pass your own folder of images on which you want to run inference on, specify your folder path after --source.
 - After the model is done training, we would have the last.pt file inside the weights folder and the final output images inside the out_out folder. 
 
 ### Unconventional Changes 
