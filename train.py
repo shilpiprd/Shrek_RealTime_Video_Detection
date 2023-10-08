@@ -89,8 +89,8 @@ def train():
 
     # Initialize model
     model = Darknet(cfg).to(device)
-    imgs = imgs.to(device).float() / 255.0                     #added these lines
-    targets = targets.to(device)
+    # imgs = imgs.to(device).float() / 255.0                     #added these lines
+    # targets = targets.to(device)
 
     # Optimizer
     pg0, pg1, pg2 = [], [], []  # optimizer parameter groups
