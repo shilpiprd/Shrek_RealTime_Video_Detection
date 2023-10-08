@@ -461,6 +461,9 @@ def build_targets(p, targets, model):
         # t = t.to(device)
         # a = a.to(device)
         # j = j.to(device)
+        # print("t type:", type(t), "t device:", t.device if isinstance(t, torch.Tensor) else 'Not a tensor')
+        # print("a type:", type(a), "a device:", a.device if isinstance(a, torch.Tensor) else 'Not a tensor')
+        # print("j type:", type(j), "j device:", j.device if isinstance(j, torch.Tensor) else 'Not a tensor')
 
         if nt:
             iou = wh_iou(anchors, gwh)  # iou(3,n) = wh_iou(anchors(3,2), gwh(n,2))
