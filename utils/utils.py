@@ -456,15 +456,12 @@ def build_targets(p, targets, model):
         gain[2:] = torch.tensor(p[i].shape)[[3, 2, 3, 2]]  # xyxy gain
         t, a = targets * gain, []
         gwh = t[:, 4:6]
-        print(t.device, a.device, j.device, 'mydevice') #added this line
+        # print(t.device, a.device, j.device, 'mydevice') #added this line
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         # t = t.to(device)
         # a = a.to(device)
         # j = j.to(device)
-        # print("t type:", type(t), "t device:", t.device if isinstance(t, torch.Tensor) else 'Not a tensor')
-        # print("a type:", type(a), "a device:", a.device if isinstance(a, torch.Tensor) else 'Not a tensor')
-        # print("j type:", type(j), "j device:", j.device if isinstance(j, torch.Tensor) else 'Not a tensor')
-
+        
         if nt:
             iou = wh_iou(anchors, gwh)  # iou(3,n) = wh_iou(anchors(3,2), gwh(n,2))
 
