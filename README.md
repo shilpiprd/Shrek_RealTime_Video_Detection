@@ -1,9 +1,9 @@
 # Youtube Video
-[Link to Video](https://youtu.be/MNGXXRh8tpI)
+[Link to Video](https://youtu.be/OmxLlAKkIbc)
 
 # Custom Detected Images
 
-=<p float="left">
+<p float="left">
   <img src="output_images/image-590.png" width="400" />
   <img src="output_images/image-789.png" width="400" />
   <img src="output_images/image-890.png" width="400" />
@@ -21,6 +21,8 @@ The primary objective of this project was to demonstrate the capability of train
 I have used 110 images as training_set out of which for each class, there is roughly 25 images.
 The corresponding label file (.txt file) of images contains the class_id and the bounding box coordinates.
 The training and test images have been resized to the standard input size of YoloV3 by using Pillow. 
+
+## Running the Model
 
 You'll need to download the weights from the original source. 
 To be able to run the colab notebook, follow the given steps:
